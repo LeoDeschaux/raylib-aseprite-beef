@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", BeefRaylibAseprite = "*"}
+
+[Project]
+Name = "example"
+TargetType = "BeefGUIApplication"
+StartupObject = "example.Program"
