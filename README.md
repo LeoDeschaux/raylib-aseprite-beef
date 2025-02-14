@@ -1,4 +1,4 @@
-# BeefRaylibAseprite
+# raylib-aseprite-beef
  
 Beef binding for [raylib-aseprite](https://github.com/RobLoach/raylib-aseprite)
 
