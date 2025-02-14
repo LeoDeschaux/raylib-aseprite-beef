@@ -1,9 +1,9 @@
 using RaylibBeef;
 using System;
 
-namespace BeefRaylibAseprite;
+namespace RaylibAsepriteBeef;
 
-public static class BeefRaylibAseprite
+public static class RaylibAseprite
 {
 	const int32 CUTE_ASEPRITE_MAX_LAYERS = 64;
  	const int32 CUTE_ASEPRITE_MAX_SLICES = 128;

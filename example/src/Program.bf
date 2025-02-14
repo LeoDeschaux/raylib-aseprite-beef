@@ -1,7 +1,7 @@
 using RaylibBeef;
 using static RaylibBeef.Raylib;
 
-using static BeefRaylibAseprite.BeefRaylibAseprite;
+using static RaylibAsepriteBeef.RaylibAseprite;
 
 using System;
 

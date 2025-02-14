@@ -2,9 +2,10 @@ FileVersion = 1
 Dependencies = {corlib = "*", raylib-beef = "*"}
 
 [Project]
-Name = "BeefRaylibAseprite"
+Name = "raylib-aseprite-beef"
 TargetType = "BeefLib"
-StartupObject = "BeefRaylibAseprite.Program"
+StartupObject = "RaylibAsepriteBeef.Program"
+DefaultNamespace = "RaylibAsepriteBeef"
 
 [Configs.Debug.Win64]
 LibPaths = ["$(ProjectDir)/lib/$(Platform)/raylib-aseprite.lib"]

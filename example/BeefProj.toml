@@ -1,5 +1,5 @@
 FileVersion = 1
-Dependencies = {corlib = "*", BeefRaylibAseprite = "*"}
+Dependencies = {corlib = "*", raylib-aseprite-beef = "*"}
 
 [Project]
 Name = "example"

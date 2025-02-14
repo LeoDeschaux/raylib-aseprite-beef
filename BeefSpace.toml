@@ -1,5 +1,5 @@
 FileVersion = 1
-Projects = {BeefRaylibAseprite = {Path = "."}, raylib-beef = "*", example = {Path = "example"}}
+Projects = {raylib-aseprite-beef = {Path = "."}, raylib-beef = "*", example = {Path = "example"}}
 
 [Workspace]
 StartupProject = "example"
