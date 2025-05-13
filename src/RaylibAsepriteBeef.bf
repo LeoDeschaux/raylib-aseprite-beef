@@ -219,22 +219,22 @@ public static class RaylibAseprite
 
 	[CRepr]
 	public struct AsepriteTag {
-	    char8* name;         // The name of the tag.
-	    int32 currentFrame;   // The frame that the tag is currently on
-	    float timer;        // The countdown timer in seconds
-	    int32 direction;      // Whether we are moving forwards, or backwards through the frames
-	    float speed;        // The animation speed factor (1 is normal speed, 2 is double speed)
-	    Color color;        // The color provided for the tag
-	    bool loop;          // Whether to continue to play the animation when the animation finishes
-	    bool paused;        // Set to true to not progression of the animation
-	    Aseprite aseprite;  // The loaded Aseprite file
+	    public char8* name;         // The name of the tag.
+	    public int32 currentFrame;   // The frame that the tag is currently on
+	    public float timer;        // The countdown timer in seconds
+	    public int32 direction;      // Whether we are moving forwards, or backwards through the frames
+	    public float speed;        // The animation speed factor (1 is normal speed, 2 is double speed)
+	    public Color color;        // The color provided for the tag
+	    public bool loop;          // Whether to continue to play the animation when the animation finishes
+	    public bool paused;        // Set to true to not progression of the animation
+	    public Aseprite aseprite;  // The loaded Aseprite file
 	    ase_tag_t* tag;     // The active tag to act upon
 	};
 
 	[CRepr]
 	public struct AsepriteSlice {
-	    char8* name;         // The name of the slice.
-	    Rectangle bounds;   // The rectangle outer bounds for the slice.
+	    public char8* name;         // The name of the slice.
+	    public Rectangle bounds;   // The rectangle outer bounds for the slice.
 	};
 
 	// Aseprite functions
@@ -349,7 +349,6 @@ public static class RaylibAseprite
 	public static extern void SetAsepriteTagFrame(AsepriteTag* tag, int32 frameNumber);                           
 
 	[CLink]
-
 	public static extern int32 GetAsepriteTagFrame(AsepriteTag tag);
 
 	// Aseprite Slice functions
